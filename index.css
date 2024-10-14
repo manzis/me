@@ -207,7 +207,7 @@ body{
   justify-content:flex-start;
   flex-shrink: 0;
   position: relative;
-  width: 95px;
+  width: 100px;
   height: auto;
   color: #242424;
   font-family: Otterco-Medium, var(--default-font-family);
