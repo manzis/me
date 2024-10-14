@@ -269,7 +269,7 @@
     border-radius: 74px;
   }
   .frame-e {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
@@ -998,7 +998,7 @@
     overflow: hidden;
   }
   .mob-frame-16 {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     align-self: stretch;
