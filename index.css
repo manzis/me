@@ -192,7 +192,14 @@ body{
   }
 }
 
-
+.button:hover{
+  text-decoration: underline;
+  color: white;
+}
+.button-container-7c:hover{
+  text-decoration: underline;
+  color: #242424;
+}
 
 .span-manjish-upadhaya {
   display: flex;
