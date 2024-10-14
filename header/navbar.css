@@ -1,5 +1,5 @@
 .frame {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: nowrap;
@@ -1129,4 +1129,16 @@
     text-align: center;
     white-space: nowrap;
     z-index: 37;
+  }
+
+  @media (max-width: 840px)
+  {
+.frame{
+  display: none;
+}
+.mob-frame{
+  display: flex;
+}
+
+
   }

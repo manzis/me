@@ -719,4 +719,11 @@
     .frame-6b{
         border-radius: 75px 75px 0 0;
       }
+
+      #mobile-footer{
+        display: flex;
+      }
+      #regular-footer{
+        display: none;
+      }
 }
