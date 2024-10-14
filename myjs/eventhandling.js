@@ -37,3 +37,16 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
+fetch('./header/nav.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
+
+  // Load Footer
+  fetch('./footer/footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+
