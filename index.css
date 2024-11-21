@@ -208,7 +208,7 @@ body{
   flex-shrink: 0;
   position: relative;
   width: 100px;
-  height: auto;
+  height: 50px;
   color: #242424;
   font-family: Otterco-Medium, var(--default-font-family);
   font-size: 12px;
@@ -753,6 +753,8 @@ body{
   gap: 80px;
   position: relative;
   z-index: 98;
+  padding-left: 10px;
+  padding-right: 1opx;
 }
 .frame-44 {
   display: flex;
