@@ -745,12 +745,11 @@ body{
 .frame-43 {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 0;
-  gap: 80px;
   position: relative;
   z-index: 98;
   padding-left: 10px;
